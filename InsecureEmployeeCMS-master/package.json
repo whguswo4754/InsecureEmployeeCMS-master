@@ -1,0 +1,29 @@
+{
+  "name": "InsecureEmployeeCMS",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.14.1"
+  },
+  "description": "Content Management System that allows a user to track employees salaries and groupt them by department",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GormTheWyrm/InsecureEmployeeCMS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GormTheWyrm/InsecureEmployeeCMS/issues"
+  },
+  "homepage": "https://github.com/GormTheWyrm/InsecureEmployeeCMS#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.1.0",
+    "mysql": "^2.18.1"
+  }
+}
