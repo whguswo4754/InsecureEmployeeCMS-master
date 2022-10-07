@@ -8,7 +8,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,8 @@
   "dependencies": {
     "console.table": "^0.10.0",
     "inquirer": "^7.1.0",
-    "mysql": "^2.18.1"
-  }
+    "mysql": "^2.18.1",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
